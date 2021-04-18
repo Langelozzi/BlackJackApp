@@ -362,6 +362,7 @@ class ViewController: UIViewController {
     
         
         cardBackBool = false
+        firstDealerCards()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [self] in
             giveDealerCard()
